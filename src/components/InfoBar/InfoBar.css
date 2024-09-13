@@ -1,0 +1,59 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #2979ff, #00c6ff);
+  border-radius: 10px 10px 0 0;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.infoBar:hover {
+  background: linear-gradient(90deg, #0061ff, #00aaff);
+}
+
+.leftInnerContainer {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.leftInnerContainer img {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rightInnerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 0.5;
+}
+
+.onlineIcon {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #66ff66;
+  margin-right: 10px;
+}
+
+.rightInnerContainer img {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rightInnerContainer img:hover {
+  transform: scale(1.1);
+}
